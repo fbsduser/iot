@@ -2,8 +2,8 @@
 #include <LiquidCrystal.h>
 
 #define SSID "IOTMASTER"
-#define PASS "psdkhldvd"
-#define IP "192.168.20.149"
+#define PASS "PASSWORD"
+#define IP "TCP_SERVER_IP"
 #define PORT "80";
 #define ID "1";
 #define ESP8266 ESP8266
