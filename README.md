@@ -10,6 +10,6 @@ b .Mq9 gas sensor
 -------------------------------------
 
 As a tcp server i use a python script founded in : http://www.pierotofy.it/pages/extras/forum/81/1058981-serverclient_multi_thread_errore_broken_pipe/
-And i didi some modification on it ;)
+And i did some modification on it ;)
 
 
