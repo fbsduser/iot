@@ -11,8 +11,8 @@
 
 #define ONE_WIRE_BUS 8
 #define SSID "IOTMASTER"
-#define PASS "psdkhldvd"
-#define IP "192.168.20.149"
+#define PASS "PASSWORD"
+#define IP "TCP_SERVER_IP"
 #define ID "0";
 OneWire  ds(8);  // data bus on pin A0
 LiquidCrystal lcd(2, 3, 4, 5, 6, 7);
