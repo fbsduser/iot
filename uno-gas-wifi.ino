@@ -46,7 +46,8 @@ void setup() {
       String cmd1 = "AT+CIPSTART=1,\"TCP\",\"";
       cmd1 += IP;
       cmd1 += "\",80";
-            
+      lcd.print("    .(^_^).");      
+  
           //ESP8266.write("AT+CIPMUX=1\r\n");   //run in muplitplex connection
       delay(100);
   
