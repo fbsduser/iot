@@ -46,8 +46,7 @@ void setup() {
       String cmd1 = "AT+CIPSTART=1,\"TCP\",\"";
       cmd1 += IP;
       cmd1 += "\",80";
-      lcd.print("TEST");
-      
+            
           //ESP8266.write("AT+CIPMUX=1\r\n");   //run in muplitplex connection
       delay(100);
   
@@ -92,26 +91,19 @@ void recv() {
   if (ESP8266.find("1,OFF"))
     {
 
-          //light=light-10 ;
-          //analogWrite(fan_pin,light);
           digitalWrite(fan_pin,LOW);
           lcd.setCursor(0, 1);
           lcd.print("FAN OFF");
           lcd.print("-");
           lcd.print(sensorValue);
 
-     
   }
   else
   {
 
     if (ESP8266.find("1,ON"))
     {
-          //if (light < 256 ){
-          //light=light+10 ;
-          //}
        
-          //analogWrite(fan_pin,light);
           digitalWrite(fan_pin,HIGH);
           lcd.setCursor(0, 1);
           lcd.print("FAN ON ");
