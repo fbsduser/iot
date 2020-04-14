@@ -32,7 +32,7 @@ class ClientThread(Thread):
               conn.send(ID)
               temp=(re.search(r'[-+]?\d*\.\d+',data).group())
               #print "\033[1;31m................... {} ...................\n \033[0m".format(ID)
-              print "\033[3H\033[1;30m 			Tempearture \033[3;34m >> {}  \033[0;0m ".format(temp)
+              print "\033[3H\033[1;30m 			Temperature \033[3;34m >> {}  \033[0;0m ".format(temp)
               
               
             if "mq9" in data:  
